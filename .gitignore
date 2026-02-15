@@ -1,0 +1,11 @@
+*_build/
+_prefix/
+
+opencv/
+ggml/
+llamacpp/
+whispercpp/
+onnxruntime/
+sherpaonnx/
+piper/
+cld2/

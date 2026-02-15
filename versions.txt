@@ -1,0 +1,32 @@
+cld2
+  https://github.com/wongfei/cld2
+  master
+  f92ff7f
+ggml
+  https://github.com/ggml-org/ggml.git
+  master
+  55bc9320
+llamacpp
+  https://github.com/ggml-org/llama.cpp.git
+  HEAD
+  7aaeedc09
+onnxruntime
+  https://github.com/microsoft/onnxruntime.git
+  HEAD
+  8f5c79cb63
+opencv
+  https://github.com/opencv/opencv.git
+  HEAD
+  49486f61fb
+piper
+  https://github.com/wongfei/piper
+  uehmi
+  75f3ae9
+sherpaonnx
+  https://github.com/k2-fsa/sherpa-onnx.git
+  HEAD
+  624b41c4
+whispercpp
+  https://github.com/ggml-org/whisper.cpp.git
+  HEAD
+  40e788a5

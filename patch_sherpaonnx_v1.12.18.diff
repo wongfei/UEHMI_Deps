@@ -1,0 +1,13 @@
+diff --git a/cmake/onnxruntime.cmake b/cmake/onnxruntime.cmake
+index e96ff9ff..1e75de0f 100644
+--- a/cmake/onnxruntime.cmake
++++ b/cmake/onnxruntime.cmake
+@@ -195,7 +195,7 @@ if(location_onnxruntime_header_dir AND location_onnxruntime_lib)
+     if(WIN32)
+       set_target_properties(onnxruntime PROPERTIES
+         IMPORTED_LOCATION ${location_onnxruntime_lib}
+-        IMPORTED_IMPLIB ${location_onnxruntime_lib2}
++        IMPORTED_IMPLIB ${location_onnxruntime_lib}
+         INTERFACE_INCLUDE_DIRECTORIES "${location_onnxruntime_header_dir}"
+       )
+     else()
